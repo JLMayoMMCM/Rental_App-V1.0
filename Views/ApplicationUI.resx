@@ -117,6 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+    <value>SplashScreen</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;SplashTitle.Name" xml:space="preserve">
     <value>SplashTitle</value>
   </data>
@@ -127,7 +139,7 @@
     <value>SplashScreen</value>
   </data>
   <data name="&gt;&gt;SplashTitle.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="SplashScreen.Location" type="System.Drawing.Point, System.Drawing">
@@ -150,7 +162,28 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;SplashScreen.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
+  </data>
+  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
+    <value>flowLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+    <value>SplashScreen</value>
+  </data>
+  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="SplashTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -180,7 +213,7 @@
     <value>SplashScreen</value>
   </data>
   <data name="&gt;&gt;SplashTitle.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="EndScreen.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -201,7 +234,353 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;EndScreen.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt</value>
+  </data>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="comboBox1.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBox1.Items3" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="comboBox1.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="comboBox1.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="comboBox1.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="comboBox1.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="comboBox1.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="comboBox1.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="comboBox1.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="comboBox1.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="comboBox1.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="comboBox1.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>720, 576</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 45</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TotalDayRentLBL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TotalDayRentLBL.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt</value>
+  </data>
+  <data name="TotalDayRentLBL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 581</value>
+  </data>
+  <data name="TotalDayRentLBL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>378, 37</value>
+  </data>
+  <data name="TotalDayRentLBL.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="TotalDayRentLBL.Text" xml:space="preserve">
+    <value>TOTAL DAYS OF RENT:</value>
+  </data>
+  <data name="&gt;&gt;TotalDayRentLBL.Name" xml:space="preserve">
+    <value>TotalDayRentLBL</value>
+  </data>
+  <data name="&gt;&gt;TotalDayRentLBL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TotalDayRentLBL.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;TotalDayRentLBL.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TableLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TableLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt, style=Bold, Underline</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TableLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TableLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 40</value>
+  </data>
+  <data name="TableLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 37</value>
+  </data>
+  <data name="TableLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="TableLabel.Text" xml:space="preserve">
+    <value>ELECTRONICS</value>
+  </data>
+  <data name="&gt;&gt;TableLabel.Name" xml:space="preserve">
+    <value>TableLabel</value>
+  </data>
+  <data name="&gt;&gt;TableLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLabel.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;TableLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CategoryLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="CategoryLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 24pt, style=Bold</value>
+  </data>
+  <data name="CategoryLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="CategoryLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 85</value>
+  </data>
+  <data name="CategoryLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 37</value>
+  </data>
+  <data name="CategoryLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="CategoryLabel.Text" xml:space="preserve">
+    <value>ITEM CATEGORIES</value>
+  </data>
+  <data name="&gt;&gt;CategoryLabel.Name" xml:space="preserve">
+    <value>CategoryLabel</value>
+  </data>
+  <data name="&gt;&gt;CategoryLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CategoryLabel.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;CategoryLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>929, 52</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 25</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>SEARCH</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1034, 51</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>201, 26</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LDSCHL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LDSCHL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 329</value>
+  </data>
+  <data name="LDSCHL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 61</value>
+  </data>
+  <data name="LDSCHL.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LDSCHL.Text" xml:space="preserve">
+    <value>HOME  AND GARDEN</value>
+  </data>
+  <data name="&gt;&gt;LDSCHL.Name" xml:space="preserve">
+    <value>LDSCHL</value>
+  </data>
+  <data name="&gt;&gt;LDSCHL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LDSCHL.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;LDSCHL.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LDDVC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LDDVC.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 433</value>
+  </data>
+  <data name="LDDVC.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 61</value>
+  </data>
+  <data name="LDDVC.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LDDVC.Text" xml:space="preserve">
+    <value>TOOLS AND EQUIPMENT</value>
+  </data>
+  <data name="&gt;&gt;LDDVC.Name" xml:space="preserve">
+    <value>LDDVC</value>
+  </data>
+  <data name="&gt;&gt;LDDVC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LDDVC.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;LDDVC.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LDCLTH.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LDCLTH.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 235</value>
+  </data>
+  <data name="LDCLTH.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 61</value>
+  </data>
+  <data name="LDCLTH.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LDCLTH.Text" xml:space="preserve">
+    <value>TOOLS AND ACCESSORIES</value>
+  </data>
+  <data name="&gt;&gt;LDCLTH.Name" xml:space="preserve">
+    <value>LDCLTH</value>
+  </data>
+  <data name="&gt;&gt;LDCLTH.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LDCLTH.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;LDCLTH.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="LDTL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 138</value>
+  </data>
+  <data name="LDTL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 61</value>
+  </data>
+  <data name="LDTL.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LDTL.Text" xml:space="preserve">
+    <value>ELECTRONICS</value>
+  </data>
+  <data name="&gt;&gt;LDTL.Name" xml:space="preserve">
+    <value>LDTL</value>
+  </data>
+  <data name="&gt;&gt;LDTL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LDTL.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;LDTL.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="DTIMAGETEST.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
+  </data>
+  <data name="DTIMAGETEST.Location" type="System.Drawing.Point, System.Drawing">
+    <value>333, 83</value>
+  </data>
+  <data name="DTIMAGETEST.Size" type="System.Drawing.Size, System.Drawing">
+    <value>919, 487</value>
+  </data>
+  <data name="DTIMAGETEST.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;DTIMAGETEST.Name" xml:space="preserve">
+    <value>DTIMAGETEST</value>
+  </data>
+  <data name="&gt;&gt;DTIMAGETEST.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DTIMAGETEST.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;DTIMAGETEST.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <data name="GridViewScreen.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -222,7 +601,64 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GridViewScreen.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>LoginScreen</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>LoginScreen</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;IDInput.Name" xml:space="preserve">
+    <value>IDInput</value>
+  </data>
+  <data name="&gt;&gt;IDInput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;IDInput.Parent" xml:space="preserve">
+    <value>LoginScreen</value>
+  </data>
+  <data name="&gt;&gt;IDInput.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LoginScreen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="LoginScreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1265, 684</value>
+  </data>
+  <data name="LoginScreen.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LoginScreen.Name" xml:space="preserve">
+    <value>LoginScreen</value>
+  </data>
+  <data name="&gt;&gt;LoginScreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LoginScreen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LoginScreen.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -275,7 +711,6 @@
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="IDInput.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
@@ -305,27 +740,6 @@
   </data>
   <data name="&gt;&gt;IDInput.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="LoginScreen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="LoginScreen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1265, 684</value>
-  </data>
-  <data name="LoginScreen.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;LoginScreen.Name" xml:space="preserve">
-    <value>LoginScreen</value>
-  </data>
-  <data name="&gt;&gt;LoginScreen.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LoginScreen.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;LoginScreen.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="CartScreen.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -367,19 +781,259 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ReceiptScreen.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="StudentLoginProgram.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="StudentLoginAge.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="StudentLoginID.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="StudentLoginName.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="CheckStudent.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="&gt;&gt;ChkNoBtn.Name" xml:space="preserve">
+    <value>ChkNoBtn</value>
+  </data>
+  <data name="&gt;&gt;ChkNoBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkNoBtn.Parent" xml:space="preserve">
+    <value>CheckStudent</value>
+  </data>
+  <data name="&gt;&gt;ChkNoBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ChkYesBtn.Name" xml:space="preserve">
+    <value>ChkYesBtn</value>
+  </data>
+  <data name="&gt;&gt;ChkYesBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkYesBtn.Parent" xml:space="preserve">
+    <value>CheckStudent</value>
+  </data>
+  <data name="&gt;&gt;ChkYesBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginProgram.Name" xml:space="preserve">
+    <value>StudentLoginProgram</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginProgram.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginProgram.Parent" xml:space="preserve">
+    <value>CheckStudent</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginProgram.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginAge.Name" xml:space="preserve">
+    <value>StudentLoginAge</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginAge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginAge.Parent" xml:space="preserve">
+    <value>CheckStudent</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginAge.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+  <data name="&gt;&gt;StudentLoginID.Name" xml:space="preserve">
+    <value>StudentLoginID</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginID.Parent" xml:space="preserve">
+    <value>CheckStudent</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginID.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginName.Name" xml:space="preserve">
+    <value>StudentLoginName</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginName.Parent" xml:space="preserve">
+    <value>CheckStudent</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CheckStudent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="CheckStudent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1265, 681</value>
+  </data>
+  <data name="CheckStudent.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;CheckStudent.Name" xml:space="preserve">
+    <value>CheckStudent</value>
+  </data>
+  <data name="&gt;&gt;CheckStudent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CheckStudent.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CheckStudent.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ChkNoBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 521</value>
+  </data>
+  <data name="ChkNoBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 49</value>
+  </data>
+  <data name="ChkNoBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ChkNoBtn.Text" xml:space="preserve">
+    <value>NO</value>
+  </data>
+  <data name="&gt;&gt;ChkNoBtn.Name" xml:space="preserve">
+    <value>ChkNoBtn</value>
+  </data>
+  <data name="&gt;&gt;ChkNoBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkNoBtn.Parent" xml:space="preserve">
+    <value>CheckStudent</value>
+  </data>
+  <data name="&gt;&gt;ChkNoBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ChkYesBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>630, 521</value>
+  </data>
+  <data name="ChkYesBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 49</value>
+  </data>
+  <data name="ChkYesBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ChkYesBtn.Text" xml:space="preserve">
+    <value>YES</value>
+  </data>
+  <data name="&gt;&gt;ChkYesBtn.Name" xml:space="preserve">
+    <value>ChkYesBtn</value>
+  </data>
+  <data name="&gt;&gt;ChkYesBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkYesBtn.Parent" xml:space="preserve">
+    <value>CheckStudent</value>
+  </data>
+  <data name="&gt;&gt;ChkYesBtn.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="StudentLoginProgram.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
   </metadata>
-  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 4</value>
+  <data name="StudentLoginProgram.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 439</value>
   </data>
-  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
-    <value>contextMenuStrip1</value>
+  <data name="StudentLoginProgram.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 20</value>
   </data>
-  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="StudentLoginProgram.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginProgram.Name" xml:space="preserve">
+    <value>StudentLoginProgram</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginProgram.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginProgram.Parent" xml:space="preserve">
+    <value>CheckStudent</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginProgram.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="StudentLoginAge.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="StudentLoginAge.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 380</value>
+  </data>
+  <data name="StudentLoginAge.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 20</value>
+  </data>
+  <data name="StudentLoginAge.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginAge.Name" xml:space="preserve">
+    <value>StudentLoginAge</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginAge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginAge.Parent" xml:space="preserve">
+    <value>CheckStudent</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginAge.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="StudentLoginID.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="StudentLoginID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 323</value>
+  </data>
+  <data name="StudentLoginID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 20</value>
+  </data>
+  <data name="StudentLoginID.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginID.Name" xml:space="preserve">
+    <value>StudentLoginID</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginID.Parent" xml:space="preserve">
+    <value>CheckStudent</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginID.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="StudentLoginName.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="StudentLoginName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>394, 267</value>
+  </data>
+  <data name="StudentLoginName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>419, 20</value>
+  </data>
+  <data name="StudentLoginName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginName.Name" xml:space="preserve">
+    <value>StudentLoginName</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginName.Parent" xml:space="preserve">
+    <value>CheckStudent</value>
+  </data>
+  <data name="&gt;&gt;StudentLoginName.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
