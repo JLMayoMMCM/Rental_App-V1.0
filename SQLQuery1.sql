@@ -16,28 +16,7 @@ CREATE TABLE [dbo].[studentData] (
 );
 
 CREATE TABLE [dbo].[Cart] (
-    [ItemID]     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    NOT NULL,
+    [ItemID]    int NOT NULL,
     [StudentID]  VARCHAR (10)  NOT NULL,
     [Name]       VARCHAR (25)  NOT NULL,
     [Category]   VARCHAR (25)  NULL,
@@ -49,7 +28,7 @@ CREATE TABLE [dbo].[Cart] (
 
 
 
-INSERT intO [dbo].[studentData] ([StudentID], [name], [age], [Program])
+INSERT into [dbo].[studentData] ([StudentID], [name], [age], [Program])
 VALUES
 ('201110166', 'Jonathan Lance Mayo', 20, 'Information Systems');
 
@@ -76,3 +55,9 @@ VALUES
 INSERT intO [dbo].[ItemList] ([ItemID], [Name], [Category], [RentPerDay], [ItemImage])
 VALUES
 (06, 'Garden Hoe', 'Home & Garden', 75, NULL);
+
+
+-- DELETE ALL CONTENT On CART
+
+DELETE FROM [dbo].[Cart];
+TRUNCATE TABLE [dbo].[Cart];

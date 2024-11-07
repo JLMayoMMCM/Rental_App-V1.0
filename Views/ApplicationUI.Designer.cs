@@ -50,6 +50,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.IDInput = new System.Windows.Forms.TextBox();
             this.CartScreen = new System.Windows.Forms.Panel();
+            this.GRDCRT = new System.Windows.Forms.DataGridView();
             this.ReceiptScreen = new System.Windows.Forms.Panel();
             this.CheckStudent = new System.Windows.Forms.Panel();
             this.ChkNoBtn = new System.Windows.Forms.Button();
@@ -58,14 +59,13 @@
             this.StudentLoginAge = new System.Windows.Forms.TextBox();
             this.StudentLoginID = new System.Windows.Forms.TextBox();
             this.StudentLoginName = new System.Windows.Forms.TextBox();
-            this.GRDCRT = new System.Windows.Forms.DataGridView();
             this.SplashScreen.SuspendLayout();
             this.GridViewScreen.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DTIMAGETEST)).BeginInit();
             this.LoginScreen.SuspendLayout();
             this.CartScreen.SuspendLayout();
-            this.CheckStudent.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.GRDCRT)).BeginInit();
+            this.CheckStudent.SuspendLayout();
             this.SuspendLayout();
             // 
             // SplashScreen
@@ -96,7 +96,7 @@
             // GridViewScreen
             // 
             this.GridViewScreen.BackColor = System.Drawing.SystemColors.Control;
-            this.GridViewScreen.BackgroundImage = global::Rental_App_V1._0.Properties.Resources.intro;
+            this.GridViewScreen.BackgroundImage = global::Rental_App_V1._0.Properties.Resources.Intro;
             resources.ApplyResources(this.GridViewScreen, "GridViewScreen");
             this.GridViewScreen.Controls.Add(this.TotalDayRentLBL);
             this.GridViewScreen.Controls.Add(this.TableLabel);
@@ -233,6 +233,12 @@
             resources.ApplyResources(this.CartScreen, "CartScreen");
             this.CartScreen.Name = "CartScreen";
             // 
+            // GRDCRT
+            // 
+            this.GRDCRT.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.GRDCRT, "GRDCRT");
+            this.GRDCRT.Name = "GRDCRT";
+            // 
             // ReceiptScreen
             // 
             this.ReceiptScreen.BackColor = System.Drawing.Color.Transparent;
@@ -241,7 +247,7 @@
             // 
             // CheckStudent
             // 
-            this.CheckStudent.BackgroundImage = global::Rental_App_V1._0.Properties.Resources.intro;
+            this.CheckStudent.BackgroundImage = global::Rental_App_V1._0.Properties.Resources.Intro;
             resources.ApplyResources(this.CheckStudent, "CheckStudent");
             this.CheckStudent.Controls.Add(this.ChkNoBtn);
             this.CheckStudent.Controls.Add(this.ChkYesBtn);
@@ -292,22 +298,16 @@
             this.StudentLoginName.Name = "StudentLoginName";
             this.StudentLoginName.ReadOnly = true;
             // 
-            // GRDCRT
-            // 
-            this.GRDCRT.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            resources.ApplyResources(this.GRDCRT, "GRDCRT");
-            this.GRDCRT.Name = "GRDCRT";
-            // 
             // ApplicationUI
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Rental_App_V1._0.Properties.Resources.intro;
+            this.BackgroundImage = global::Rental_App_V1._0.Properties.Resources.Intro;
+            this.Controls.Add(this.CartScreen);
             this.Controls.Add(this.SplashScreen);
             this.Controls.Add(this.LoginScreen);
             this.Controls.Add(this.CheckStudent);
             this.Controls.Add(this.GridViewScreen);
-            this.Controls.Add(this.CartScreen);
             this.Controls.Add(this.ReceiptScreen);
             this.Controls.Add(this.EndScreen);
             this.MaximizeBox = false;
@@ -321,9 +321,9 @@
             this.LoginScreen.ResumeLayout(false);
             this.LoginScreen.PerformLayout();
             this.CartScreen.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.GRDCRT)).EndInit();
             this.CheckStudent.ResumeLayout(false);
             this.CheckStudent.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.GRDCRT)).EndInit();
             this.ResumeLayout(false);
 
         }
