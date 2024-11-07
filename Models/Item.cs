@@ -9,15 +9,17 @@ namespace Rental_App_V1._0.Models
 {
     internal class Item
     {
-        private int ItemID { get; set; }
-        private string Name { get; set; }
-        private string Description { get; set; }
-        private double Price { get; set; }
-        private int Quantity { get; set; }
+        public int ItemID { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public double Price { get; set; }
+        public int Quantity { get; set; }
 
         public Image Image { get; set; }
 
-        public Item(int item, string name, string description, double price, int quantity, Image image)
+        public string ImageAddress {  get; set; }
+
+        public Item(int item, string name, string description, double price, int quantity, Image image, string imageAddress)
         {
             ItemID = item;
             Name = name;
@@ -25,6 +27,7 @@ namespace Rental_App_V1._0.Models
             Price = price;
             Quantity = quantity;
             Image = image;
+            ImageAddress = imageAddress;
         }
 
 

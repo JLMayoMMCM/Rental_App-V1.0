@@ -153,6 +153,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Cart.cs" />
     <Compile Include="Models\Item.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="ModelViews\Application_DB.cs" />
@@ -194,6 +195,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Resource\Intro.jpg" />
+    <Content Include="Resource\Items\Default.png" />
     <Content Include="Resource\Items\Hand Massager.jpg" />
     <Content Include="Resource\Items\iphone-16-pro-N1.png" />
     <Content Include="Resource\Items\Pixel9.jpg" />

@@ -34,11 +34,14 @@
             this.SplashTitle = new System.Windows.Forms.Label();
             this.EndScreen = new System.Windows.Forms.Panel();
             this.GridViewScreen = new System.Windows.Forms.Panel();
+            this.TotalDayRentLBL = new System.Windows.Forms.Label();
+            this.TableLabel = new System.Windows.Forms.Label();
             this.CategoryLabel = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.SearchBox = new System.Windows.Forms.TextBox();
             this.LDSCHL = new System.Windows.Forms.Button();
             this.LDDVC = new System.Windows.Forms.Button();
+            this.CBODayRent = new System.Windows.Forms.ComboBox();
             this.LDCLTH = new System.Windows.Forms.Button();
             this.LDTL = new System.Windows.Forms.Button();
             this.DTIMAGETEST = new System.Windows.Forms.DataGridView();
@@ -55,14 +58,14 @@
             this.StudentLoginAge = new System.Windows.Forms.TextBox();
             this.StudentLoginID = new System.Windows.Forms.TextBox();
             this.StudentLoginName = new System.Windows.Forms.TextBox();
-            this.TableLabel = new System.Windows.Forms.Label();
-            this.TotalDayRentLBL = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.GRDCRT = new System.Windows.Forms.DataGridView();
             this.SplashScreen.SuspendLayout();
             this.GridViewScreen.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DTIMAGETEST)).BeginInit();
             this.LoginScreen.SuspendLayout();
+            this.CartScreen.SuspendLayout();
             this.CheckStudent.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.GRDCRT)).BeginInit();
             this.SuspendLayout();
             // 
             // SplashScreen
@@ -92,20 +95,32 @@
             // 
             // GridViewScreen
             // 
-            this.GridViewScreen.BackColor = System.Drawing.Color.Transparent;
-            this.GridViewScreen.Controls.Add(this.comboBox1);
+            this.GridViewScreen.BackColor = System.Drawing.SystemColors.Control;
+            this.GridViewScreen.BackgroundImage = global::Rental_App_V1._0.Properties.Resources.Intro;
+            resources.ApplyResources(this.GridViewScreen, "GridViewScreen");
             this.GridViewScreen.Controls.Add(this.TotalDayRentLBL);
             this.GridViewScreen.Controls.Add(this.TableLabel);
             this.GridViewScreen.Controls.Add(this.CategoryLabel);
             this.GridViewScreen.Controls.Add(this.label2);
-            this.GridViewScreen.Controls.Add(this.textBox1);
+            this.GridViewScreen.Controls.Add(this.SearchBox);
             this.GridViewScreen.Controls.Add(this.LDSCHL);
             this.GridViewScreen.Controls.Add(this.LDDVC);
+            this.GridViewScreen.Controls.Add(this.CBODayRent);
             this.GridViewScreen.Controls.Add(this.LDCLTH);
             this.GridViewScreen.Controls.Add(this.LDTL);
             this.GridViewScreen.Controls.Add(this.DTIMAGETEST);
-            resources.ApplyResources(this.GridViewScreen, "GridViewScreen");
+            this.GridViewScreen.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.GridViewScreen.Name = "GridViewScreen";
+            // 
+            // TotalDayRentLBL
+            // 
+            resources.ApplyResources(this.TotalDayRentLBL, "TotalDayRentLBL");
+            this.TotalDayRentLBL.Name = "TotalDayRentLBL";
+            // 
+            // TableLabel
+            // 
+            resources.ApplyResources(this.TableLabel, "TableLabel");
+            this.TableLabel.Name = "TableLabel";
             // 
             // CategoryLabel
             // 
@@ -117,10 +132,11 @@
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             // 
-            // textBox1
+            // SearchBox
             // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
+            resources.ApplyResources(this.SearchBox, "SearchBox");
+            this.SearchBox.Name = "SearchBox";
+            this.SearchBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.ModifyDB);
             // 
             // LDSCHL
             // 
@@ -135,6 +151,29 @@
             this.LDDVC.Name = "LDDVC";
             this.LDDVC.UseVisualStyleBackColor = true;
             this.LDDVC.Click += new System.EventHandler(this.Load_Tool_Data);
+            // 
+            // CBODayRent
+            // 
+            this.CBODayRent.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.CBODayRent, "CBODayRent");
+            this.CBODayRent.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.CBODayRent.FormattingEnabled = true;
+            this.CBODayRent.Items.AddRange(new object[] {
+            resources.GetString("CBODayRent.Items"),
+            resources.GetString("CBODayRent.Items1"),
+            resources.GetString("CBODayRent.Items2"),
+            resources.GetString("CBODayRent.Items3"),
+            resources.GetString("CBODayRent.Items4"),
+            resources.GetString("CBODayRent.Items5"),
+            resources.GetString("CBODayRent.Items6"),
+            resources.GetString("CBODayRent.Items7"),
+            resources.GetString("CBODayRent.Items8"),
+            resources.GetString("CBODayRent.Items9"),
+            resources.GetString("CBODayRent.Items10"),
+            resources.GetString("CBODayRent.Items11"),
+            resources.GetString("CBODayRent.Items12"),
+            resources.GetString("CBODayRent.Items13")});
+            this.CBODayRent.Name = "CBODayRent";
             // 
             // LDCLTH
             // 
@@ -158,6 +197,8 @@
             this.DTIMAGETEST.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.DTIMAGETEST.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DTIMAGETEST.Name = "DTIMAGETEST";
+            this.DTIMAGETEST.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DTIMAGETEST_CellContentClick);
+            this.DTIMAGETEST.RowHeaderMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.GridViewItem_Click);
             // 
             // LoginScreen
             // 
@@ -188,6 +229,7 @@
             // CartScreen
             // 
             this.CartScreen.BackColor = System.Drawing.Color.Transparent;
+            this.CartScreen.Controls.Add(this.GRDCRT);
             resources.ApplyResources(this.CartScreen, "CartScreen");
             this.CartScreen.Name = "CartScreen";
             // 
@@ -227,68 +269,47 @@
             // 
             resources.ApplyResources(this.StudentLoginProgram, "StudentLoginProgram");
             this.StudentLoginProgram.Name = "StudentLoginProgram";
+            this.StudentLoginProgram.ReadOnly = true;
             this.StudentLoginProgram.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // StudentLoginAge
             // 
             resources.ApplyResources(this.StudentLoginAge, "StudentLoginAge");
             this.StudentLoginAge.Name = "StudentLoginAge";
+            this.StudentLoginAge.ReadOnly = true;
             this.StudentLoginAge.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // StudentLoginID
             // 
             resources.ApplyResources(this.StudentLoginID, "StudentLoginID");
             this.StudentLoginID.Name = "StudentLoginID";
+            this.StudentLoginID.ReadOnly = true;
             this.StudentLoginID.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // StudentLoginName
             // 
             resources.ApplyResources(this.StudentLoginName, "StudentLoginName");
             this.StudentLoginName.Name = "StudentLoginName";
+            this.StudentLoginName.ReadOnly = true;
             // 
-            // TableLabel
+            // GRDCRT
             // 
-            resources.ApplyResources(this.TableLabel, "TableLabel");
-            this.TableLabel.Name = "TableLabel";
-            // 
-            // TotalDayRentLBL
-            // 
-            resources.ApplyResources(this.TotalDayRentLBL, "TotalDayRentLBL");
-            this.TotalDayRentLBL.Name = "TotalDayRentLBL";
-            // 
-            // comboBox1
-            // 
-            resources.ApplyResources(this.comboBox1, "comboBox1");
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            resources.GetString("comboBox1.Items"),
-            resources.GetString("comboBox1.Items1"),
-            resources.GetString("comboBox1.Items2"),
-            resources.GetString("comboBox1.Items3"),
-            resources.GetString("comboBox1.Items4"),
-            resources.GetString("comboBox1.Items5"),
-            resources.GetString("comboBox1.Items6"),
-            resources.GetString("comboBox1.Items7"),
-            resources.GetString("comboBox1.Items8"),
-            resources.GetString("comboBox1.Items9"),
-            resources.GetString("comboBox1.Items10"),
-            resources.GetString("comboBox1.Items11"),
-            resources.GetString("comboBox1.Items12"),
-            resources.GetString("comboBox1.Items13")});
-            this.comboBox1.Name = "comboBox1";
+            this.GRDCRT.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.GRDCRT, "GRDCRT");
+            this.GRDCRT.Name = "GRDCRT";
             // 
             // ApplicationUI
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Rental_App_V1._0.Properties.Resources.Intro;
-            this.Controls.Add(this.GridViewScreen);
             this.Controls.Add(this.SplashScreen);
             this.Controls.Add(this.LoginScreen);
             this.Controls.Add(this.CheckStudent);
+            this.Controls.Add(this.GridViewScreen);
+            this.Controls.Add(this.CartScreen);
             this.Controls.Add(this.ReceiptScreen);
             this.Controls.Add(this.EndScreen);
-            this.Controls.Add(this.CartScreen);
             this.MaximizeBox = false;
             this.Name = "ApplicationUI";
             this.Load += new System.EventHandler(this.ApplicationUI_Load_1);
@@ -299,8 +320,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.DTIMAGETEST)).EndInit();
             this.LoginScreen.ResumeLayout(false);
             this.LoginScreen.PerformLayout();
+            this.CartScreen.ResumeLayout(false);
             this.CheckStudent.ResumeLayout(false);
             this.CheckStudent.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.GRDCRT)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -330,10 +353,11 @@
         private System.Windows.Forms.TextBox StudentLoginID;
         private System.Windows.Forms.TextBox StudentLoginName;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox SearchBox;
         private System.Windows.Forms.Label CategoryLabel;
         private System.Windows.Forms.Label TableLabel;
         private System.Windows.Forms.Label TotalDayRentLBL;
-        private System.Windows.Forms.ComboBox comboBox1;
+        public System.Windows.Forms.ComboBox CBODayRent;
+        private System.Windows.Forms.DataGridView GRDCRT;
     }
 }

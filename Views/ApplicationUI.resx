@@ -162,7 +162,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;SplashScreen.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -234,73 +234,164 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;EndScreen.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="comboBox1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 24pt</value>
-  </data>
-  <data name="comboBox1.Items" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="comboBox1.Items2" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="comboBox1.Items3" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="comboBox1.Items4" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="comboBox1.Items5" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="comboBox1.Items6" xml:space="preserve">
-    <value>7</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GridViewScreen.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
-  <data name="comboBox1.Items7" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;TotalDayRentLBL.Name" xml:space="preserve">
+    <value>TotalDayRentLBL</value>
   </data>
-  <data name="comboBox1.Items8" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;TotalDayRentLBL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="comboBox1.Items9" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="comboBox1.Items10" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="comboBox1.Items11" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="comboBox1.Items12" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="comboBox1.Items13" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>720, 576</value>
-  </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>171, 45</value>
-  </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
-    <value>comboBox1</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TotalDayRentLBL.Parent" xml:space="preserve">
     <value>GridViewScreen</value>
   </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;TotalDayRentLBL.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;TableLabel.Name" xml:space="preserve">
+    <value>TableLabel</value>
+  </data>
+  <data name="&gt;&gt;TableLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TableLabel.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;TableLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;CategoryLabel.Name" xml:space="preserve">
+    <value>CategoryLabel</value>
+  </data>
+  <data name="&gt;&gt;CategoryLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CategoryLabel.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;CategoryLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;SearchBox.Name" xml:space="preserve">
+    <value>SearchBox</value>
+  </data>
+  <data name="&gt;&gt;SearchBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SearchBox.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;SearchBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LDSCHL.Name" xml:space="preserve">
+    <value>LDSCHL</value>
+  </data>
+  <data name="&gt;&gt;LDSCHL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LDSCHL.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;LDSCHL.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;LDDVC.Name" xml:space="preserve">
+    <value>LDDVC</value>
+  </data>
+  <data name="&gt;&gt;LDDVC.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LDDVC.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;LDDVC.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;CBODayRent.Name" xml:space="preserve">
+    <value>CBODayRent</value>
+  </data>
+  <data name="&gt;&gt;CBODayRent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CBODayRent.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;CBODayRent.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;LDCLTH.Name" xml:space="preserve">
+    <value>LDCLTH</value>
+  </data>
+  <data name="&gt;&gt;LDCLTH.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LDCLTH.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;LDCLTH.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;LDTL.Name" xml:space="preserve">
+    <value>LDTL</value>
+  </data>
+  <data name="&gt;&gt;LDTL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LDTL.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;LDTL.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;DTIMAGETEST.Name" xml:space="preserve">
+    <value>DTIMAGETEST</value>
+  </data>
+  <data name="&gt;&gt;DTIMAGETEST.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DTIMAGETEST.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;DTIMAGETEST.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="GridViewScreen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="GridViewScreen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1265, 684</value>
+  </data>
+  <data name="GridViewScreen.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;GridViewScreen.Name" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;GridViewScreen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GridViewScreen.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GridViewScreen.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="TotalDayRentLBL.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -309,7 +400,7 @@
     <value>Microsoft Sans Serif, 24pt</value>
   </data>
   <data name="TotalDayRentLBL.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 581</value>
+    <value>685, 591</value>
   </data>
   <data name="TotalDayRentLBL.Size" type="System.Drawing.Size, System.Drawing">
     <value>378, 37</value>
@@ -330,7 +421,7 @@
     <value>GridViewScreen</value>
   </data>
   <data name="&gt;&gt;TotalDayRentLBL.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="TableLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -338,7 +429,6 @@
   <data name="TableLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 24pt, style=Bold, Underline</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TableLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -364,7 +454,7 @@
     <value>GridViewScreen</value>
   </data>
   <data name="&gt;&gt;TableLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="CategoryLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -397,7 +487,7 @@
     <value>GridViewScreen</value>
   </data>
   <data name="&gt;&gt;CategoryLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="label2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -427,31 +517,31 @@
     <value>GridViewScreen</value>
   </data>
   <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
-  <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="SearchBox.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 12pt</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="SearchBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>1034, 51</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="SearchBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>201, 26</value>
   </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="SearchBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
+  <data name="&gt;&gt;SearchBox.Name" xml:space="preserve">
+    <value>SearchBox</value>
   </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;SearchBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;SearchBox.Parent" xml:space="preserve">
     <value>GridViewScreen</value>
   </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;SearchBox.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="LDSCHL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -478,7 +568,7 @@
     <value>GridViewScreen</value>
   </data>
   <data name="&gt;&gt;LDSCHL.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="LDDVC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -505,6 +595,81 @@
     <value>GridViewScreen</value>
   </data>
   <data name="&gt;&gt;LDDVC.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CBODayRent.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="CBODayRent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 20.25pt</value>
+  </data>
+  <data name="CBODayRent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="CBODayRent.Items" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="CBODayRent.Items1" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CBODayRent.Items2" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="CBODayRent.Items3" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CBODayRent.Items4" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CBODayRent.Items5" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="CBODayRent.Items6" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="CBODayRent.Items7" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CBODayRent.Items8" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CBODayRent.Items9" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="CBODayRent.Items10" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="CBODayRent.Items11" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="CBODayRent.Items12" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="CBODayRent.Items13" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="CBODayRent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1081, 589</value>
+  </data>
+  <data name="CBODayRent.MaxDropDownItems" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="CBODayRent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>171, 39</value>
+  </data>
+  <data name="CBODayRent.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;CBODayRent.Name" xml:space="preserve">
+    <value>CBODayRent</value>
+  </data>
+  <data name="&gt;&gt;CBODayRent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CBODayRent.Parent" xml:space="preserve">
+    <value>GridViewScreen</value>
+  </data>
+  <data name="&gt;&gt;CBODayRent.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
   <data name="LDCLTH.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -582,27 +747,6 @@
   <data name="&gt;&gt;DTIMAGETEST.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="GridViewScreen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="GridViewScreen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1265, 684</value>
-  </data>
-  <data name="GridViewScreen.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;GridViewScreen.Name" xml:space="preserve">
-    <value>GridViewScreen</value>
-  </data>
-  <data name="&gt;&gt;GridViewScreen.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GridViewScreen.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GridViewScreen.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
   </data>
@@ -658,7 +802,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LoginScreen.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="label1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -741,6 +885,18 @@
   <data name="&gt;&gt;IDInput.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="&gt;&gt;GRDCRT.Name" xml:space="preserve">
+    <value>GRDCRT</value>
+  </data>
+  <data name="&gt;&gt;GRDCRT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GRDCRT.Parent" xml:space="preserve">
+    <value>CartScreen</value>
+  </data>
+  <data name="&gt;&gt;GRDCRT.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="CartScreen.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -760,7 +916,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CartScreen.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>4</value>
   </data>
   <data name="ReceiptScreen.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -781,7 +937,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ReceiptScreen.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <metadata name="StudentLoginProgram.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -889,7 +1045,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CheckStudent.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="ChkNoBtn.Location" type="System.Drawing.Point, System.Drawing">
     <value>394, 521</value>
@@ -1014,6 +1170,9 @@
   <metadata name="StudentLoginName.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="StudentLoginName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
   <data name="StudentLoginName.Location" type="System.Drawing.Point, System.Drawing">
     <value>394, 267</value>
   </data>
@@ -1034,6 +1193,27 @@
   </data>
   <data name="&gt;&gt;StudentLoginName.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="GRDCRT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 125</value>
+  </data>
+  <data name="GRDCRT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>780, 390</value>
+  </data>
+  <data name="GRDCRT.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GRDCRT.Name" xml:space="preserve">
+    <value>GRDCRT</value>
+  </data>
+  <data name="&gt;&gt;GRDCRT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GRDCRT.Parent" xml:space="preserve">
+    <value>CartScreen</value>
+  </data>
+  <data name="&gt;&gt;GRDCRT.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

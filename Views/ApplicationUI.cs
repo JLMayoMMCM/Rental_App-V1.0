@@ -50,7 +50,6 @@ namespace Rental_App_V1._0.Views
                 StudentLoginID.Text = student.StudentID;
                 StudentLoginProgram.Text = student.Program;
                 StudentLoginAge.Text = student.Age.ToString();
-                IDInput.Text = "";
                 LoginScreen.Visible = false;
                 CheckStudent.Visible = true;
             }
@@ -60,11 +59,50 @@ namespace Rental_App_V1._0.Views
             }
         }
 
-        private void GridViewScreen_Click(object sender, EventArgs e)
+        private void GridViewItem_Click(object sender, DataGridViewCellMouseEventArgs ee)
         {
-            GridViewScreen.Visible = false;
-            CartScreen.Visible = true;
 
+            DialogResult result = MessageBox.Show("Do you want to add this item to the cart?", "Add Item", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (result == DialogResult.Yes)
+            {
+
+                int itemID = Convert.ToInt32(DTIMAGETEST.Rows[ee.RowIndex].Cells[0].Value);
+                string studentID = IDInput.Text;
+                string itemName = DTIMAGETEST.Rows[ee.RowIndex].Cells[1].Value.ToString();
+                string itemCategory = DTIMAGETEST.Rows[ee.RowIndex].Cells[2].Value.ToString();
+                double itemPrice = Convert.ToDouble(DTIMAGETEST.Rows[ee.RowIndex].Cells[3].Value);
+                string itemImage = DTIMAGETEST.Rows[ee.RowIndex].Cells[5].Value.ToString();
+                int rentDays = Convert.ToInt32(CBODayRent.Text);
+
+                Cart cart = new Cart(itemID, studentID, itemName, itemCategory, itemPrice, itemImage, rentDays, rentDays * itemPrice);
+
+                Application_DB appDB = new Application_DB();
+                
+                if (appDB.exportData(cart))
+                {
+                    MessageBox.Show("Item Added to Cart");
+
+                    GridViewScreen.Visible = false;
+                    ReceiptScreen.Visible = true;
+
+                    DataTable tb = appDB.importCart(studentID);
+                    GRDCRT.DataSource = tb;
+
+                }
+                else
+                {
+                    MessageBox.Show("Item Not Added to Cart");
+                }
+
+
+
+
+
+
+
+
+            }
         }
 
         private void CartScreen_Click(object sender, EventArgs e)
@@ -91,6 +129,7 @@ namespace Rental_App_V1._0.Views
             Application_DB appDB = new Application_DB();
             DataTable dt = appDB.ImportData("Electronics");
             DTIMAGETEST.DataSource = dt;
+            DTIMAGETEST.Columns[5].Visible = false;
         }
 
         private void Load_Clothing_Data(object sender, EventArgs e)
@@ -100,6 +139,7 @@ namespace Rental_App_V1._0.Views
             Application_DB appDB = new Application_DB();
             DataTable dt = appDB.ImportData("Clothing & Accessories");
             DTIMAGETEST.DataSource = dt;
+            DTIMAGETEST.Columns[5].Visible = false;
         }
 
         private void Load_Home_Data(object sender, EventArgs e)
@@ -109,6 +149,7 @@ namespace Rental_App_V1._0.Views
             Application_DB appDB = new Application_DB();
             DataTable dt = appDB.ImportData("Home & Garden");
             DTIMAGETEST.DataSource = dt;
+            DTIMAGETEST.Columns[5].Visible = false;
         }
 
         private void Load_Tool_Data(object sender, EventArgs e)
@@ -118,12 +159,18 @@ namespace Rental_App_V1._0.Views
             Application_DB appDB = new Application_DB();
             DataTable dt = appDB.ImportData("Tools & Equipment");
             DTIMAGETEST.DataSource = dt;
+            DTIMAGETEST.Columns[5].Visible = false;
         }
 
         private void Check_No(object sender, EventArgs e)
         {
             CheckStudent.Visible = false;
             LoginScreen.Visible = true;
+
+            StudentLoginName.Text = "";
+            StudentLoginID.Text = "";
+            StudentLoginProgram.Text = "";
+            StudentLoginAge.Text = "";
         }
 
         private void Check_Yes(object sender, EventArgs e)
@@ -131,8 +178,14 @@ namespace Rental_App_V1._0.Views
             CheckStudent.Visible = false;
             GridViewScreen.Visible = true;
             
-            DataTable dt = appDB.ImportData();
+            CBODayRent.Text = "1";
+            DataTable dt = appDB.ImportData("Electronics");
             DTIMAGETEST.DataSource = dt;
+
+            StudentLoginName.Text = "";
+            StudentLoginID.Text = "";
+            StudentLoginProgram.Text = "";
+            StudentLoginAge.Text = "";
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
@@ -153,6 +206,34 @@ namespace Rental_App_V1._0.Views
         private void ApplicationUI_Load_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void ADD_ITEM(object sender, DataGridViewCellMouseEventArgs e)
+        {
+
+        }
+
+        private void DTIMAGETEST_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void ModifyDB(object sender, KeyEventArgs e)
+        {
+            Application_DB appDB = new Application_DB();
+            DTIMAGETEST.DataSource = null;
+            if (SearchBox.Text != "")
+            {
+                DataTable dt = appDB.searchFilter(SearchBox.Text, TableLabel.Text);
+                DTIMAGETEST.DataSource = dt;
+                DTIMAGETEST.Columns[5].Visible = false;
+            }
+            else
+            {
+                DataTable dt = appDB.ImportData(TableLabel.Text);
+                DTIMAGETEST.DataSource = dt;
+                DTIMAGETEST.Columns[5].Visible = false;
+            }
         }
     }
 }
