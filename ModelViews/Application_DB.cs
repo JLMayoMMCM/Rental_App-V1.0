@@ -17,7 +17,7 @@ namespace Rental_App_V1._0.ModelViews
 {
     internal class Application_DB
     {
-        internal string connectionString = "Data Source=localhost\\VPDBOOP;Initial Catalog=VPDB;Integrated Security=True;Encrypt=True;Trust Server Certificate=True";
+        internal string connectionString = "Data Source=localhost\\VPDBOOP;Initial Catalog=VPDB;integrated Security=True;Encrypt=True;Trust Server Certificate=True";
         public Student CheckIfExist(String id)
         {
             string query = $"SELECT * FROM studentData WHERE StudentID = '{id}'";
@@ -31,7 +31,7 @@ namespace Rental_App_V1._0.ModelViews
                     {
                         if (reader.Read())
                         {
-                            Student student = new Student(reader.GetString(reader.GetOrdinal("StudentID")), reader.GetString(reader.GetOrdinal("Name")), reader.GetInt32(reader.GetOrdinal("Age")), reader.GetString(reader.GetOrdinal("Program")));
+                            Student student = new Student(reader.GetString(reader.GetOrdinal("StudentID")), reader.GetString(reader.GetOrdinal("Name")), reader.Getint32(reader.GetOrdinal("Age")), reader.GetString(reader.GetOrdinal("Program")));
                             connection.Close();
                             return student;
                         }
@@ -69,10 +69,10 @@ namespace Rental_App_V1._0.ModelViews
                         while (reader.Read())
                         {
 
-                            int itemId = reader.GetInt32(reader.GetOrdinal("ItemID"));
+                            int itemId = reader.Getint32(reader.GetOrdinal("ItemID"));
                             string name = reader.GetString(reader.GetOrdinal("Name"));
                             string category = reader.GetString(reader.GetOrdinal("Category"));
-                            int price = reader.GetInt32(reader.GetOrdinal("RentPerDay"));
+                            int price = reader.Getint32(reader.GetOrdinal("RentPerDay"));
                             string imagePath = reader.GetString(reader.GetOrdinal("ItemImage"));
                             string imageAddress = reader.GetString(reader.GetOrdinal("ItemImage"));
 
@@ -138,10 +138,10 @@ namespace Rental_App_V1._0.ModelViews
 
                         while (reader.Read())
                         {
-                            int itemId = reader.GetInt32(reader.GetOrdinal("ItemID"));
+                            int itemId = reader.Getint32(reader.GetOrdinal("ItemID"));
                             string name = reader.GetString(reader.GetOrdinal("Name"));
                             string category = reader.GetString(reader.GetOrdinal("Category"));
-                            int price = reader.GetInt32(reader.GetOrdinal("RentPerDay"));
+                            int price = reader.Getint32(reader.GetOrdinal("RentPerDay"));
                             string imagePath = reader.GetString(reader.GetOrdinal("ItemImage"));
                             string imageAddress = reader.GetString(reader.GetOrdinal("ItemImage"));
 
@@ -186,18 +186,17 @@ public DataTable importCart(string studentID)
                         dt.Columns.Add("Category", typeof(string));
                         dt.Columns.Add("RentPerDay", typeof(int));
                         dt.Columns.Add("ItemImage", typeof(Image));
-                        dt.Columns.Add("TotalPrice", typeof(double));
+                        dt.Columns.Add("TotalPrice", typeof(int));
 
                         while (reader.Read())
                         {
-                            int itemId = reader.GetInt32(reader.GetOrdinal("ItemID"));
+                            int itemId = reader.Getint32(reader.GetOrdinal("ItemID"));
                             string studentid = reader.GetString(reader.GetOrdinal("StudentID"));
                             string name = reader.GetString(reader.GetOrdinal("Name"));
                             string category = reader.GetString(reader.GetOrdinal("Category"));
-                            int rentPerDay = reader.GetInt32(reader.GetOrdinal("RentPerDay"));
+                            int rentPerDay = reader.Getint32(reader.GetOrdinal("RentPerDay"));
                             string itemImage = reader.GetString(reader.GetOrdinal("ItemImage"));
-                            double totalPrice = reader.GetDouble(reader.GetOrdinal("TotalPrice"));
-                            
+                            int totalPrice = reader.Getint32(reader.GetOrdinal("TotalPrice"));
 
                             dt.Rows.Add(itemId, studentid, name, category, rentPerDay, itemImage, totalPrice);
                         }
@@ -232,10 +231,10 @@ public DataTable importCart(string studentID)
 
                         while (reader.Read())
                         {
-                            int itemId = reader.GetInt32(reader.GetOrdinal("ItemID"));
+                            int itemId = reader.Getint32(reader.GetOrdinal("ItemID"));
                             string name = reader.GetString(reader.GetOrdinal("Name"));
                             string category = reader.GetString(reader.GetOrdinal("Category"));
-                            int price = reader.GetInt32(reader.GetOrdinal("RentPerDay"));
+                            int price = reader.Getint32(reader.GetOrdinal("RentPerDay"));
                             string imagePath = reader.GetString(reader.GetOrdinal("ItemImage"));
 
                             Image itemImage = null;
@@ -268,13 +267,13 @@ public DataTable importCart(string studentID)
             string studentID = cart.StudentId;
             string itemName = cart.Name;
             string itemCategory = cart.Category;
-            double itemPrice = cart.RentPerDay;
+            int itemPrice = cart.RentPerDay;
             string itemImage = cart.ItemImage;
             int rentDays = cart.NoOfRentDays;
-            double totalrent = cart.TotalPrice;
+            int totalrent = cart.TotalPrice;
 
             string checkQuery = $"SELECT * FROM Cart WHERE ItemID = '{cart1.ItemId}'";
-            string insertQuery = $"INSERT INTO Cart (ItemID, StudentID, Name, Category, RentPerDay, ItemImage, TotalPrice) VALUES ('{cart1.ItemId}', '{cart1.StudentId}', '{cart1.Name}', '{cart1.Category}', '{cart1.RentPerDay}', '{cart1.ItemImage}', '{cart1.TotalPrice}')";
+            string insertQuery = $"INSERT intO Cart (ItemID, StudentID, Name, Category, RentPerDay, ItemImage, TotalPrice) VALUES ('{cart1.ItemId}', '{cart1.StudentId}', '{cart1.Name}', '{cart1.Category}', '{cart1.RentPerDay}', '{cart1.ItemImage}', '{cart1.TotalPrice}')";
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {

@@ -67,13 +67,13 @@ namespace Rental_App_V1._0.Views
             if (result == DialogResult.Yes)
             {
 
-                int itemID = Convert.ToInt32(DTIMAGETEST.Rows[ee.RowIndex].Cells[0].Value);
+                int itemID = Convert.Toint32(DTIMAGETEST.Rows[ee.RowIndex].Cells[0].Value);
                 string studentID = IDInput.Text;
                 string itemName = DTIMAGETEST.Rows[ee.RowIndex].Cells[1].Value.ToString();
                 string itemCategory = DTIMAGETEST.Rows[ee.RowIndex].Cells[2].Value.ToString();
-                double itemPrice = Convert.ToDouble(DTIMAGETEST.Rows[ee.RowIndex].Cells[3].Value);
+                int itemPrice = Convert.Toint(DTIMAGETEST.Rows[ee.RowIndex].Cells[3].Value);
                 string itemImage = DTIMAGETEST.Rows[ee.RowIndex].Cells[5].Value.ToString();
-                int rentDays = Convert.ToInt32(CBODayRent.Text);
+                int rentDays = Convert.Toint32(CBODayRent.Text);
 
                 Cart cart = new Cart(itemID, studentID, itemName, itemCategory, itemPrice, itemImage, rentDays, rentDays * itemPrice);
 

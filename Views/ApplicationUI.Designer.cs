@@ -96,7 +96,7 @@
             // GridViewScreen
             // 
             this.GridViewScreen.BackColor = System.Drawing.SystemColors.Control;
-            this.GridViewScreen.BackgroundImage = global::Rental_App_V1._0.Properties.Resources.Intro;
+            this.GridViewScreen.BackgroundImage = global::Rental_App_V1._0.Properties.Resources.intro;
             resources.ApplyResources(this.GridViewScreen, "GridViewScreen");
             this.GridViewScreen.Controls.Add(this.TotalDayRentLBL);
             this.GridViewScreen.Controls.Add(this.TableLabel);
@@ -241,7 +241,7 @@
             // 
             // CheckStudent
             // 
-            this.CheckStudent.BackgroundImage = global::Rental_App_V1._0.Properties.Resources.Intro;
+            this.CheckStudent.BackgroundImage = global::Rental_App_V1._0.Properties.Resources.intro;
             resources.ApplyResources(this.CheckStudent, "CheckStudent");
             this.CheckStudent.Controls.Add(this.ChkNoBtn);
             this.CheckStudent.Controls.Add(this.ChkYesBtn);
@@ -302,7 +302,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Rental_App_V1._0.Properties.Resources.Intro;
+            this.BackgroundImage = global::Rental_App_V1._0.Properties.Resources.intro;
             this.Controls.Add(this.SplashScreen);
             this.Controls.Add(this.LoginScreen);
             this.Controls.Add(this.CheckStudent);

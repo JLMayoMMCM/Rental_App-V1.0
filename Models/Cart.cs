@@ -16,13 +16,13 @@ namespace Rental_App_V1._0.Models
 
         public string Category { get; set; }
 
-        public double RentPerDay { get; set; }
+        public int RentPerDay { get; set; }
 
         public string ItemImage { get; set; }
 
         public int NoOfRentDays { get; set; }
 
-        public double TotalPrice { get; set; }
+        public int TotalPrice { get; set; }
 
 
         public Cart()
@@ -37,7 +37,7 @@ namespace Rental_App_V1._0.Models
             TotalPrice = 0;
         }
 
-        public Cart(int itemID, string studentID, string name, string category, double rentPerDay, string itemImage, int NoOfRentDays, double TotalRentCost)
+        public Cart(int itemID, string studentID, string name, string category, int rentPerDay, string itemImage, int NoOfRentDays, int TotalRentCost)
         {
             ItemId = itemID;
             StudentId = studentID;
